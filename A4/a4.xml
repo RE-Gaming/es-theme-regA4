@@ -150,7 +150,7 @@ originally based on the tutorial provided on RetroPie's website: https://retropi
 		</image>
 		
 		<image name="logo2" extra="true">
-			<pos>0.75 0.10</pos>
+			<pos>0.71 0.10</pos>
 			<maxSize>0.50 0.18</maxSize>
 			<origin>0 0.5</origin>
 			<color>FFFFFF</color>
