@@ -13,7 +13,7 @@ originally based on the tutorial provided on RetroPie's website: https://retropi
 
 		<carousel name="systemcarousel"> <!--This is for the console carousel-->
 			<type>vertical</type>
-			<pos>0.05 0</pos>
+			<pos>0.07 0</pos>
 			<size>0.5 1</size>
 			<color>FFFFFF00</color>
 			<maxLogoCount>5</maxLogoCount>
@@ -36,11 +36,12 @@ originally based on the tutorial provided on RetroPie's website: https://retropi
 
 		<image name="CenterFade" extra="true"> <!--This is currently to a vertical grandient, low resolution, could make my own-->
 			<tile>false</tile>
-			<size>0.6 1</size>
-			<pos>0.3 0.5</pos>
+			<size>0.55 1</size>
+			<pos>0.32 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<path>./art/centerfadevertical.png</path>
-			<color>FFFFFF99</color>
+			<path>./art/220x240_verticalfade.png</path>
+			<!--<path>./art/centerfadevertical.png</path>
+			<color>FFFFFF99</color>-->
 		</image>
 		
 		<image name="ControllerOverlay" extra="true"> <!--default color and position for all consoles-->
@@ -92,7 +93,7 @@ originally based on the tutorial provided on RetroPie's website: https://retropi
 		</image>
 
 		<image name="md_image">
-			<pos>0.75 0.775</pos>
+			<pos>0.75 0.78</pos>
 			<maxSize>0.45 0.4</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
@@ -101,9 +102,9 @@ originally based on the tutorial provided on RetroPie's website: https://retropi
 			<color>FFFFFF</color>
 			<forceUppercase>0</forceUppercase>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
-			<fontSize>0.045</fontSize>
-			<size>0.45 0.34</size>
-			<pos>0.525 0.21</pos>
+			<fontSize>0.0435</fontSize>
+			<size>0.45 0.33</size>
+			<pos>0.525 0.225</pos>
 		</text>
 
 		<textlist name="gamelist">
@@ -113,18 +114,18 @@ originally based on the tutorial provided on RetroPie's website: https://retropi
 			<secondaryColor>8B0000</secondaryColor>
 			<fontPath>./art/Cabin-Bold.ttf</fontPath>
 			<forceUppercase>0</forceUppercase>
-			<pos>0.025 0.18</pos>
+			<pos>0.025 0.19</pos>
 			<size>0.475 0.74</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.00</horizontalMargin>
-			<fontSize>0.05</fontSize>
+			<fontSize>0.0475</fontSize>
 			<scrollSound>./art/scroll.wav</scrollSound>
 		</textlist>
 		
 		<image name="textbackground" extra="true"> <!--This is currently set to a plain color-->
 			<tile>true</tile>
 			<size>0.46 0.34</size>
-			<pos>0.515 0.21</pos>
+			<pos>0.515 0.217</pos>
 			<origin>0 0</origin>
 			<path>./art/bg_color.png</path>
 			<color>11111199</color>
