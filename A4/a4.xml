@@ -36,7 +36,7 @@ originally based on the tutorial provided on RetroPie's website: https://retropi
 
 		<image name="CenterFade" extra="true"> <!--This is currently to a vertical grandient, low resolution, could make my own-->
 			<tile>false</tile>
-			<size>0.55 1</size>
+			<size>0.54 1</size>
 			<pos>0.32 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<path>./art/220x240_verticalfade.png</path>
